@@ -1,0 +1,24 @@
+Bootstrap.css v0.9
+<http://www.jiripudil.cz/bootstrap-css>
+
+
+
+ABOUT BOOTSTRAP.CSS
+
+Bootstrap.css is a comprehensive CSS framework. It sets up typography aligned in a baseline grid, responsive grid system, print layout, forms stylesheet, and debugging classes. It also supports some basic HTML5.
+
+
+
+USAGE
+
+It is recommended to use bootstrap.css in development, and bootstrap.min.css in production.
+
+This version (v0.9) is released for public testing. If you encounter a bug, or have any request, feel free tweeting @jiripudil or sending me an email: jiri.pudil@gmail.com
+
+
+
+LICENSE
+
+Bootstrap.css is released under Creative Commons Attribution-Share Alike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0>. To read the attributions, please visit the project's homepage.
+
+Copyright (C) 2011 Jiøí Pudil
