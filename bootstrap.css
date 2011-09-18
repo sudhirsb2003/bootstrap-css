@@ -509,7 +509,7 @@ li * li ul {
   list-style-type: square;
   }
 
-ol {
+ol, .numbered {
   list-style-type: decimal;
   }
 
