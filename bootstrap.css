@@ -789,7 +789,7 @@ img, object, embed, video, audio {
 /* Uses negative margin, so that you don't have to indicate last column of the row, inspired by Harry Roberts's technique <http://csswizardry.com/2011/08/building-better-grid-systems> */
 .grid {
   width: 101.1111111111111111111111111111111%;
-  margin: 0 0 0 -2.2222222222222222222222222222222%;
+  margin: 0 0 0 -1.6666666666666666666666666666661%;
   list-style: none;
   }
 
