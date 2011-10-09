@@ -99,26 +99,26 @@ a.more:after {
   margin-bottom: 3em;
   }
 
-.success, .error, .warning, .notice {
+.success, .error, .warning, .notice, .info {
   font-size: 1em;
   line-height: 1.5em;
-  padding: 1.4em 1.5em 1.5em 1.5em;
-  border-width: 0.1em;
+  padding: 1.3em 1.5em 1.5em 1.5em;
+  border-width: .2em;
   border-style: solid;
   margin-bottom: 3em;
   }
 
 .success {
   background: #efd;
-  border-color: #0c0;
-  color: #090;
+  border-color: #bf6;
+  color: #6b3;
   }
 
-.success a, .success a:hover { color: #090; }
+.success a, .success a:hover { color: #6b3; }
 
 .error {
   background: #fed;
-  border-color: #c00;
+  border-color: #f63;
   color: #c00;
   }
 
@@ -126,19 +126,19 @@ a.more:after {
 
 .warning {
   background: #ffc;
-  border-color: #c90;
+  border-color: #fc6;
   color: #c90;
   }
 
 .warning a, .warning a:hover { color: #c90; }
 
-.notice {
+.notice, .info {
   background: #def;
-  border-color: #36f;
-  color: #36f;
+  border-color: #9cf;
+  color: #369;
   }
 
-.notice a, .notice a:hover { color: #00f; }
+.notice a, .notice a:hover, .info a, .info a:hover { color: #369; }
 
 .b0 { background: #000; color: #fff; }
 .b1 { background: #111; color: #fff; }
