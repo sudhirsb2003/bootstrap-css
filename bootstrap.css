@@ -748,14 +748,14 @@ a.btn {
   text-decoration: none;
   }
 
-.btn.primary {
+.btn.primary, .btn.active {
   color: #fff;
   background: #39f;
   border-color: #06c;
   font-weight: bold;
   }
 
-.btn.primary:hover {
+.btn.primary:hover, .btn.active:hover {
   background: #06f;
   border-color: #03f;
   }
@@ -769,6 +769,26 @@ a.btn {
 .btn.danger:hover, input[type=reset].btn:hover {
   background: #c30;
   border-color: #c00;
+  }
+
+.btn-group .btn {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border-left-width: 0;
+  }
+
+.btn-group .btn:first-child {
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  border-left-width: 0.1em;
+  }
+
+.btn-group .btn:last-child {
+  -moz-border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
   }
 
 /* make images and embedded media fluid */
