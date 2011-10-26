@@ -882,46 +882,6 @@ table .col10 { width: 83.33%; }
 table .col11 { width: 91.67%; }
 table .col12 { width: 100%; }
 
-/*
- * Grid for smaller screens, fluid 6-column layout
- */
-
-/* Note: you might want to use respond.js <https://github.com/scottjehl/Respond> to enable media queries support in non-compliant browsers (like IE 6-8 of course) */
-@media screen and (max-width: 800px) {
-
-  .wrapper { width: 100%; padding: 1.5em 0; }
-  
-  /* adapt wider columns to 6-col maximum, set narrower columns to "n of 6" width */
-  .grid .col1 { width: 14.444444444444444444444444444445%; }
-  .grid .col2 { width: 31.111111111111111111111111111111%; }
-  .grid .col3 { width: 47.888888888888888888888888888888%; }
-  .grid .col4 { width: 64.444444444444444444444444444445%; }
-  .grid .col5 { width: 81.111111111111111111111111111111%; }
-  .grid .col6, .grid .col7, .grid .col8, .grid .col9, .grid .col10, .grid .col11, .grid .col12 { width: 97.7777777777777777777777777777777%; }
-  
-  /* disable offsetting */
-  .offset1, .offset2, .offset3, .offset4, .offset5, .offset6, .offset7, .offset8, .offset9, .offset10, .offset11 { margin-left: 2.2222222222222222222222222222222%; }
-  
-  /* display bullets at standout lists */
-  ul.standout { padding-left: 1.5em; }
-
-}
-
-/*
- * Grid for mobile devices, fluid 3-column layout
- */
-
-/* inherits from above, so change only what's necessary */
-@media screen and (max-width: 479px) {
-
-  .grid .col1 { width: 31.111111111111111111111111111111% !important; }
-  .grid .col2 { width: 64.444444444444444444444444444445% !important; }
-  .grid .col3, .grid .col4, .grid .col5, .grid .col6, .grid .col7, .grid .col8, .grid .col9, .grid .col10, .grid .col11, .grid .col12 { width: 97.7777777777777777777777777777777% !important; }
-
-  /* use this class to hide some content from mobile viewers */
-  .hide-mobile { display: none; }
-
-}
 
 /* this pretty long code allows for columns inside columns */
 .col2 .grid, .col3 .grid, .col4 .grid, .col5 .grid, .col6 .grid, .col7 .grid, .col8 .grid, .col9 .grid, .col10 .grid, .col11 .grid, .col12 .grid {
@@ -1016,6 +976,57 @@ table .col12 { width: 100%; }
 
 .col2 .grid .col2 { width: 97.7777777777777777777777777777777%; }
 .col2 .grid .col1 { width: 47.8888888888888888888888888888888%; }
+
+
+/*
+ * Grid for smaller screens, fluid 6-column layout
+ */
+
+/* Note: you might want to use respond.js <https://github.com/scottjehl/Respond> to enable media queries support in non-compliant browsers (like IE 6-8 of course) */
+@media screen and (max-width: 800px) {
+
+  .wrapper { width: 100%; padding: 1.5em 0; }
+  
+  /* adapt wider columns to 6-col maximum, set narrower columns to "n of 6" width */
+  .grid .col1 { width: 14.444444444444444444444444444445%; }
+  .grid .col2 { width: 31.111111111111111111111111111111%; }
+  .grid .col3 { width: 47.888888888888888888888888888888%; }
+  .grid .col4 { width: 64.444444444444444444444444444445%; }
+  .grid .col5 { width: 81.111111111111111111111111111111%; }
+  .grid .col6, .grid .col7, .grid .col8, .grid .col9, .grid .col10, .grid .col11, .grid .col12 { width: 97.7777777777777777777777777777777%; }
+  
+  /* disable offsetting */
+  .offset1, .offset2, .offset3, .offset4, .offset5, .offset6, .offset7, .offset8, .offset9, .offset10, .offset11 { margin-left: 2.2222222222222222222222222222222%; }
+  
+  /* display bullets at standout lists */
+  ul.standout { padding-left: 1.5em; }
+
+}
+
+/*
+ * Grid for mobile devices, fluid 3-column layout
+ */
+
+/* inherits from above, so change only what's necessary */
+@media screen and (max-width: 479px) {
+
+  .grid .col1 { width: 31.111111111111111111111111111111% !important; }
+  .grid .col2 { width: 64.444444444444444444444444444445% !important; }
+  .grid .col3, .grid .col4, .grid .col5, .grid .col6, .grid .col7, .grid .col8, .grid .col9, .grid .col10, .grid .col11, .grid .col12 { width: 97.7777777777777777777777777777777% !important; }
+
+  /* use this class to hide some content from mobile viewers */
+  .hide-mobile { display: none; }
+  
+  form label {
+    float: none !important;
+    font-weight: bold;
+  }
+  
+  form .input {
+    float: none !important;
+	}
+
+}
 
 
 @media print {
