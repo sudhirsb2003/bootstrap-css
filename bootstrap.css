@@ -591,8 +591,7 @@ caption {
   background: #eee;
   }
 
-/* comment the following rule if you don't want that to show */
-form:not(.no-required):after {
+form.required:after {
   font-size: 0.8em;
   line-height: 1.875em;
   display: block;
