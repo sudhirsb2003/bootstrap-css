@@ -377,18 +377,18 @@ dd blockquote {
   margin: 0;
   }
 
-figure {
+figure, .figure {
   padding: 1.5em;
   margin: 0 0 1.5em 0;
   }
 
-figure.border {
+figure.border, .figure.border {
   border-top: 0.1em solid #666;
   border-bottom: 0.1em solid #666;
   padding-top: 1.4em;
   }
 
-figure figcaption {
+figure figcaption, .figure .caption {
   font-size: 1em;
   line-height: 1.5em;
   margin: 1.5em 0 0 0;
